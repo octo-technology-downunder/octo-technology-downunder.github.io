@@ -78,6 +78,34 @@ layout: default
             </div>
         </div>
     </section>
+    <div id="domains">
+      <div class="domains">
+
+          {% for category in site.training_category %}
+            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% if forloop.first %}
+              <div class="has-3">
+              {% endif %}
+                <section id="{{ category.id }}">
+                    <h2>{{ category.name }} </h2>
+                    <ul class="trainings">
+                      {% assign training_in_cat = site.training | where: "category", category.id %}
+                      {% for training in training_in_cat %}
+                      <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                </section>
+              {% if forloop.last %}
+              </div>
+            {% elsif modulo == 0 %}
+              </div>
+              <div class="has-3">
+            {% endif %}
+
+          {% endfor %}
+      </div>
+    </div>
+
     <section id="offers">
         <div>
             <article id="seminars">
@@ -129,31 +157,4 @@ layout: default
             </article>
         </div>
     </section>
-</div>
-<div id="domains">
-  <div class="domains">
-
-      {% for category in site.training_category %}
-        {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-        {% if forloop.first %}
-          <div class="has-3">
-          {% endif %}
-            <section id="{{ category.id }}">
-                <h2>{{ category.name }} </h2>
-                <ul class="trainings">
-                  {% assign training_in_cat = site.training | where: "category", category.id %}
-                  {% for training in training_in_cat %}
-                  <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
-                  {% endfor %}
-                </ul>
-            </section>
-          {% if forloop.last %}
-          </div>
-        {% elsif modulo == 0 %}
-          </div>
-          <div class="has-3">
-        {% endif %}
-
-      {% endfor %}
-  </div>
 </div>
