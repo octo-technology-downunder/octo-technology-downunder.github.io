@@ -11270,7 +11270,7 @@ footer .bottom .legalities a:hover {
   background-position: top center;
   background-image: url(./cut-home-redux.jpg);
   background-repeat: no-repeat;
-  background-color: #000000
+  background-color: white;
 }
 
 #home #fresh-courses-and-quotes > div {
@@ -13424,6 +13424,7 @@ footer .bottom .legalities a:hover {
 }
 
 #domains {
+  padding-top: 3rem;
   margin-bottom: 6.25rem
 }
 
