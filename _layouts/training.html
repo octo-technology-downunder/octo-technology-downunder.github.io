@@ -19,9 +19,11 @@ Phone (*) :
 {% endcapture%}
 <div style="display: none;">
     <style type="text/css">
+
+        {% assign training_category = site.training_category | where:"id", page.category | first   %}
         #training .details header:before,
         #training .details header .label {
-            background-color: #e7511e;
+            background-color: {{ training_category.color }};
         }
 
         #training .downloadable a,
@@ -29,11 +31,11 @@ Phone (*) :
         #training .details .program .day > ul > li > .caption,
         #training .courses a,
         #training .testimonials blockquote footer {
-            color: #e7511e;
+            color: {{ training_category.color }};
         }
 
         #training .courses .course:not(:nth-of-type(1)) {
-            border-color: #e7511e;
+            border-color: {{ training_category.color }};
         }
     </style>
 </div>

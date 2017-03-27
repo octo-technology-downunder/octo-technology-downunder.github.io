@@ -17,3 +17,21 @@ collections:
     output: true
 
 markdown: kramdown
+
+
+training_category:
+  - id: agile
+    name: Agile and Lean
+    color: "#F4B70D"
+
+  - id: IT
+    name: Information System Architecture
+    color: "#00abc7"
+
+  - id: big-data
+    name: Big Data
+    color: "#e7511e"
+
+  - id: craftsmanship
+    name: Software Craftsmanship
+    color: "#00a887"

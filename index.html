@@ -1,7 +1,31 @@
 ---
 layout: default
 ---
+{% capture category_style %}
+{% for category in site.training_category %}
+#domains .domains #{{ category.id }} h2 {
+    background-color: {{ category.color }};
+}
 
+#domains .domains #{{ category.id }} .trainings:before {
+    border-left-color: {{ category.color }};
+}
+
+#domains .domains #{{ category.id }} .trainings li a:hover {
+    color: {{ category.color }};
+}
+
+#domains .domains #{{ category.id }} .trainings span.label {
+    background-color: {{ category.color }};
+}
+{% endfor %}
+{% endcapture%}
+
+<div style="display: none;">
+    <style type="text/css">
+    {{ category_style }}
+    </style>
+</div>
 <div id="home">
     <section id="fresh-courses-and-quotes">
         <div>
@@ -105,46 +129,28 @@ layout: default
 </div>
 <div id="domains">
   <div class="domains">
-      <div class="has-3">
-          <section id="domain-24">
-              <h2>Information System Architecture</h2>
-              <ul class="trainings">
-                <li><a title="New IS architectures" href="mailto:hello@octo.com?subject=New%20IS%20architectures%20training"><span></span>New Information System architectures</a></li>
-                <li><a title="Develop, secure and manage your API" href="mailto:hello@octo.com?subject=Develop,%20secure%20and%20manage%20your%20API"><span></span>Develop, secure and manage your API</a></li>
-                <li><a title="Blockchain revolution" href="mailto:hello@octo.com?subject=Blockchain%20revolution"><span></span>Blockchain revolution</a></li>
-                <li><a title="AWS: architecture on Amazon Web Services" href="mailto:hello@octo.com?subject=AWS:%20architecture%20on%20Amazon%20Web%20Services"><span></span>AWS: architecture on Amazon Web Services</a></li>
-                <li><a title="Connected objects" href="mailto:hello@octo.com?subject=Connected%20objects"><span></span>Connected objects</a></li>
-              </ul>
-          </section>
-          <section id="domain-35">
-              <h2>Agile and Lean</h2>
-              <ul class="trainings">
-                <li><a title="discover agile culture and approaches" href="mailto:hello@octo.com?subject=discover%20agile%20culture%20and%20approaches"><span></span>discover agile culture and approaches</a></li>
-                <li><a title="adopt good practices when managing an agile project" href="mailto:hello@octo.com?subject=adopt%20good%20practices%20when%20managing%20an%20agile%20project"><span></span>adopt good practices when managing an agile project</a></li>
-                <li><a title="animate a retro on a project" href="mailto:hello@octo.com?subject=animate%20a%20retro%20on%20a%20project"><span></span>animate a retro on a project</a></li>
-                <li><a title="software development: produce useful use cases" href="mailto:hello@octo.com?subject=dsoftware%20development:%20produce%20useful%20use%20cases"><span></span>software development: produce useful use cases</a></li>
-                <li><a title="become an agile or scrum master coach" href="mailto:hello@octo.com?subject=become%20an%20agile%20or%20scrum%20master%20coach"><span></span>become an agile or scrum master coach</a></li>
 
-              </ul>
-          </section>
-          <section id="domain-11">
-              <h2>Big data</h2>
-              <ul class="trainings">
-                <li><a title="basics and advanced data science" href="mailto:hello@octo.com?subject=basics%20and%20advanced%20data%20science"><span></span>basics and advanced data science</a></li>
-                <li><a title="Hadoop" href="mailto:hello@octo.com?subject=Hadoop"><span></span>Hadoop</a></li>
-                <li><a title="No SQL" href="mailto:hello@octo.com?subject=No%20SQL"><span></span>No SQL</a></li>
-              </ul>
-          </section>
-      </div>
-      <div class="has-3">
-          <section id="domain-4">
-              <h2>Craftsmanship</h2>
-              <ul class="trainings">
-                <li><a title="code review" href="mailto:hello@octo.com?subject=code%20review"><span></span>code review</a></li>
-                <li><a title="clean code" href="mailto:hello@octo.com?subject=clean%20code"><span></span>clean code</a></li>
-                <li><a title="Test Driven Development" href="mailto:hello@octo.com?subject=Test%20Driven%20Development"><span></span>Test Driven Development</a></li>
-              </ul>
-          </section>
-      </div>
+      {% for category in site.training_category %}
+        {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+        {% if forloop.first %}
+          <div class="has-3">
+          {% endif %}
+            <section id="{{ category.id }}">
+                <h2>{{ category.name }} </h2>
+                <ul class="trainings">
+                  {% assign training_in_cat = site.training | where: "category", category.id %}
+                  {% for training in training_in_cat %}
+                  <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
+                  {% endfor %}
+                </ul>
+            </section>
+          {% if forloop.last %}
+          </div>
+        {% elsif modulo == 0 %}
+          </div>
+          <div class="has-3">
+        {% endif %}
+
+      {% endfor %}
   </div>
 </div>

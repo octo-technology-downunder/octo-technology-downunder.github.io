@@ -11,7 +11,7 @@ time_shares:
   - label: Sharing experiences
     value: 10
 type: Workshop
-category: Software Craftsmanship
+category: craftsmanship
 layout: training
 ---
 
