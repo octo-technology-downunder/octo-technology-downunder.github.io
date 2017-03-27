@@ -7404,8 +7404,17 @@ ul li ul, ul li ol {
   margin-bottom: 0
 }
 
-ul.square li ul, ul.circle li ul, ul.disc li ul, #training .details .program .day > ul > li > ul li ul {
+ul.square li ul, ul.circle li ul, ul.disc li ul, #training .details  > ul > li > ul li ul {
   list-style: inherit
+}
+
+
+#training .details h5 {
+  color: #00a887;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
 
 ul.square {
@@ -7418,7 +7427,7 @@ ul.circle {
   margin-left: 1.1rem
 }
 
-ul.disc, #training .details .program .day > ul > li > ul {
+ul.disc, #training .details  > ul > li > ul {
   list-style-type: disc;
   margin-left: 1.1rem
 }
@@ -7432,12 +7441,12 @@ ol li ul, ol li ol {
   margin-bottom: 0
 }
 
-.no-bullet, #home #fresh-courses-and-quotes .courses ul, #home #fresh-courses-and-quotes .quotes ul, #training .details .program .day > ul > li > ul > li > ul, #training .time-shares ul {
+.no-bullet, #home #fresh-courses-and-quotes .courses ul, #home #fresh-courses-and-quotes .quotes ul, #training .details  > ul > li > ul > li > ul, #training .time-shares ul {
   list-style-type: none;
   margin-left: 0
 }
 
-.no-bullet li ul, #home #fresh-courses-and-quotes .courses ul li ul, #home #fresh-courses-and-quotes .quotes ul li ul, #training .details .program .day > ul > li > ul > li > ul li ul, #training .time-shares ul li ul, .no-bullet li ol, #home #fresh-courses-and-quotes .courses ul li ol, #home #fresh-courses-and-quotes .quotes ul li ol, #training .details .program .day > ul > li > ul > li > ul li ol, #training .time-shares ul li ol {
+.no-bullet li ul, #home #fresh-courses-and-quotes .courses ul li ul, #home #fresh-courses-and-quotes .quotes ul li ul, #training .details  > ul > li > ul > li > ul li ul, #training .time-shares ul li ul, .no-bullet li ol, #home #fresh-courses-and-quotes .courses ul li ol, #home #fresh-courses-and-quotes .quotes ul li ol, #training .details  > ul > li > ul > li > ul li ol, #training .time-shares ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0;
   list-style: none
@@ -13919,11 +13928,11 @@ footer .bottom .legalities a:hover {
   margin: auto
 }
 
-#training .details .program .day {
+#training .details  {
   margin-top: 2.5rem
 }
 
-#training .details .program .day h4 {
+#training .details  h4 {
   font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.05rem;
   font-size: 1.25rem;
@@ -13933,7 +13942,7 @@ footer .bottom .legalities a:hover {
   white-space: nowrap
 }
 
-#training .details .program .day h4:after {
+#training .details  h4:after {
   content: "";
   display: inline-block;
   border-bottom: solid 1px black;
@@ -13941,72 +13950,84 @@ footer .bottom .legalities a:hover {
   margin-left: 0.375rem
 }
 
-#training .details .program .day > ul {
+#training .details  > ul {
   margin: 0;
   list-style-type: none;
   margin-top: 1.25rem;
   color: #555555
 }
 
-#training .details .program .day > ul > li {
+#training .details  > ul > li {
   margin-top: 1.25rem
 }
 
-#training .details .program .day > ul > li > .caption {
+#training .details  > ul > li > .caption {
   text-transform: uppercase;
   font-size: 1rem
 }
 
-#training .details .program .day > ul > li.with-subitems > .caption {
+#training .details  > ul > li.with-subitems > .caption {
   cursor: pointer;
   display: inline-block
 }
 
-#training .details .program .day > ul > li.with-subitems > .caption:hover, #training .details .program .day > ul > li.with-subitems > .caption:active {
+#training .details  > ul > li.with-subitems > .caption:hover, #training .details  > ul > li.with-subitems > .caption:active {
   opacity: 0.7
 }
 
-#training .details .program .day > ul > li > ul {
+#training .details ul {
   padding-left: 2.5rem;
+  color: #555555;
   overflow: hidden
 }
 
-#training .details .program .day > ul > li > ul > li {
+#training .details ul > li > ul {
+  border-left: solid 1px #CCCCCC;
+  list-style-type: none;
+  padding-left: 0.5rem;
+}
+
+#training .details ul > li > ul > li {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+#training .details  ul > li {
   margin-top: 1.25rem
 }
 
-#training .details .program .day > ul > li > ul > li > .caption {
+#training .details  ul > li > .caption {
   font-size: 1rem
 }
 
-#training .details .program .day > ul > li > ul > li > ul {
+#training .details  > ul > li > ul > li > ul {
   border-left: solid 1px #CCCCCC;
   margin-top: 0.3125rem;
   margin-left: 1.25rem;
   padding-left: 0.625rem
 }
 
-#training .details .program .day > ul > li > ul > li > ul * {
+#training .details  > ul > li > ul > li > ul * {
   line-height: 1.8
 }
 
-#training .details .program .day > ul > li > ul > li > ul > li .caption {
+#training .details  > ul > li > ul > li > ul > li .caption {
   font-size: 0.875rem
 }
 
-#training .details .program .day > ul > li > ul > li > ul > li > ul {
+#training .details  > ul > li > ul > li > ul > li > ul {
   margin-left: 1.5625rem
 }
 
-#training .details .program .day > ul > li > ul > li > ul > li > ul * {
+#training .details  > ul > li > ul > li > ul > li > ul * {
   line-height: 1.6
 }
 
-#training .details .program .day > ul > li > ul > li > ul > li > ul li .caption {
+#training .details  > ul > li > ul > li > ul > li > ul li .caption {
   color: #888888
 }
 
-#training .details .program .day > ul > li > ul > li > ul > li > ul li .caption:before {
+#training .details  > ul > li > ul > li > ul > li > ul li .caption:before {
   content: "-";
   display: inline-block;
   margin-right: 0.3125rem
