@@ -1,6 +1,6 @@
 ---
-title: Clean code
-sub-header: Produce and write nice code or improve an existing code
+title: Code's quality through Test Driven Development
+sub-header: Improve your code with automated testing
 duration_days: 3
 duration_hours: 21
 time_shares:
