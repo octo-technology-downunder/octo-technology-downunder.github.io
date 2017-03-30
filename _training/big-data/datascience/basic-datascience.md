@@ -12,6 +12,7 @@ time_shares:
 type: Workshop
 category: datascience
 layout: training
+best: true
 ---
 
 Through this initiation to data science provided by our data scientists, get an insight of their experiences in data science competitions and their rich feedbacks on models they created for their clients.

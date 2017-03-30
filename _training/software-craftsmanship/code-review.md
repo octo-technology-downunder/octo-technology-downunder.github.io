@@ -13,4 +13,5 @@ time_shares:
 type: Workshop
 category: craftsmanship
 layout: training
+best: true
 ---

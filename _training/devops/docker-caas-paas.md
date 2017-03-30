@@ -9,6 +9,7 @@ time_shares:
   value: 50
 type: Workshop
 category: devops
+best: true
 layout: training
 ---
 

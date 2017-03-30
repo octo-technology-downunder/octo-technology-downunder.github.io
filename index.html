@@ -89,9 +89,15 @@ layout: default
                 <section id="{{ category.id }}">
                     <h2>{{ category.name }} </h2>
                     <ul class="trainings">
-                      {% assign training_in_cat = site.training | where: "category", category.id %}
+                      {% assign training_in_cat = site.training | where: "category", category.id | sort: 'best', 'last' %}
                       {% for training in training_in_cat %}
-                      <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
+                      <li>
+                        <a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}">
+                          <span></span>
+                          {% if training.best %} <span class="label">BEST</span> {% endif %}
+                          {{ training.title }}
+                        </a>
+                      </li>
                       {% endfor %}
                     </ul>
                     {% if category.sub_category %}
@@ -102,9 +108,15 @@ layout: default
                           {{ sub_category.name }}
                         </h3>
                         <ul class="trainings">
-                          {% assign training_in_cat = site.training | where: "category", sub_category.id %}
+                          {% assign training_in_cat = site.training | where: "category", sub_category.id | sort: 'best', 'last' %}
                           {% for training in training_in_cat %}
-                          <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
+                          <li>
+                            <a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}">
+                              <span></span>
+                              {% if training.best %} <span class="label">BEST</span> {% endif %}
+                              {{ training.title }}
+                            </a>
+                          </li>
                           {% endfor %}
                         </ul>
 

@@ -12,6 +12,7 @@ time_shares:
 type: Workshop
 category: hadoop
 layout: training
+best: true
 ---
 
 This course is designed for administrators who will be managing the Hortonworks Data Platform (HDP) 2.3 with Ambari. It covers installation, configuration, and other typical cluster maintenance tasks.
