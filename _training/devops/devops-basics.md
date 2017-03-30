@@ -4,7 +4,7 @@ duration_days: 1
 duration_hours: 7
 time_shares:
 - label: Presentation
-  value: 90
+  value: 60
 - label: Use cases
   value: 20
 - label: Sharing experiences
