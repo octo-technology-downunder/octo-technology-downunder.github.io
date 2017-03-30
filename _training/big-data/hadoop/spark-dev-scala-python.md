@@ -15,3 +15,5 @@ layout: training
 ---
 
 This course is designed as an entry point for developers who need to create applications to analyze Big Data stored in Apache Hadoop using Spark. Topics include: An overview of the Hortonworks Data Platform (HDP), including HDFS and YARN; using Spark Core APIs for interactive data exploration; Spark SQL and DataFrame operations; Spark Streaming and DStream operations; data visualization, reporting, and collaboration; performance monitoring and tuning; building and deploying Spark applications; and an introduction to the Spark Machine Learning Library.
+
+[![Hortonworks-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/2/large_HW_logo.png)](http://hortonworks.com/partner/octo)

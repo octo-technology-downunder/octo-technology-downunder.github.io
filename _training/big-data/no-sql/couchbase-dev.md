@@ -15,7 +15,9 @@ layout: training
 
 ### Summary
 
-A 3-day hands-on lab-intensive course on architecture and design of NoSQL data using N1QL. Instruction and exercises are focused on data modeling, query, storage and access for robust, scalable, high-performance NoSQL applications. Topics include: the N1QL query language (SQL for JSON), data modeling for NoSQL applications, indexes and views, and methods of application performance tuning for principal use cases. See Customer testimonials
+A 3-day hands-on lab-intensive course on architecture and design of NoSQL data using N1QL. Instruction and exercises are focused on data modeling, query, storage and access for robust, scalable, high-performance NoSQL applications. Topics include: the N1QL query language (SQL for JSON), data modeling for NoSQL applications, indexes and views, and methods of application performance tuning for principal use cases.
+
+[![couchbase-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/1/large_CB_logo_1.png)](http://www.couchbase.com/)
 
 ### Description
 

@@ -15,3 +15,5 @@ layout: training
 ---
 
 This course is designed for developers who need to create applications to analyze Big Data stored in Apache Hadoop using Pig and Hive. Topics include: Hadoop, YARN, HDFS, MapReduce, data ingestion, workflow definition and using Pig and Hive to perform data analytics on Big Data. Labs are executed on a 7-node HDP cluster.
+
+[![Hortonworks-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/2/large_HW_logo.png)](http://hortonworks.com/partner/octo)

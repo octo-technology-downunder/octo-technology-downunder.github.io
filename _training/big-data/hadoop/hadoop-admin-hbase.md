@@ -15,3 +15,5 @@ layout: training
 ---
 
 This course is designed for administrators who will be installing, configuring and managing HBase clusters. It covers installation with Ambari, configuration, security and troubleshooting HBase implementations. The course includes an end-of-course project in which students work together to design and implement an HBase schema.
+
+[![Hortonworks-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/2/large_HW_logo.png)](http://hortonworks.com/partner/octo)

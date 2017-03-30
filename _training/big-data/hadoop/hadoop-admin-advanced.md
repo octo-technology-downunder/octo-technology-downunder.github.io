@@ -15,3 +15,6 @@ layout: training
 ---
 
 This course is designed for experienced administrators who manage Hortonworks Data Platform (HDP) 2.3 clusters with Ambari. It covers upgrades, configuration, application management, and other common tasks.
+
+
+[![Hortonworks-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/2/large_HW_logo.png)](http://hortonworks.com/partner/octo)

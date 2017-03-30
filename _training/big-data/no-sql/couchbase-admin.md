@@ -15,8 +15,8 @@ layout: training
 
 ### Summary
 A 4-day hands-on practical course in deploying and managing Couchbase Server clusters for core NoSQL database use-cases and workloads. Students learn and practice the main architectural concepts and procedures an administrator needs to know to operate Couchbase Server for real-time OLTP enterprise workloads. Download course description.
-See what customers are saying: Customer testimonials
 
+[![couchbase-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/1/large_CB_logo_1.png)](http://www.couchbase.com/)
 
 ### Description
 
