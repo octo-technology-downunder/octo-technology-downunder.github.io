@@ -1,5 +1,5 @@
 ---
-title: Devops' basics
+title: DevOps basics
 duration_days: 1
 duration_hours: 7
 time_shares:
