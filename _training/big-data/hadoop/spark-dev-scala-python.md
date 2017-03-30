@@ -1,5 +1,6 @@
 ---
 title: Develop with Apache Spark using Python or Scala
+sub-header: "Official Hadoop Hortonworks training: \"HDP Developer: Enterprise Apache Spark I\""
 duration_days: 4
 duration_hours: 28
 time_shares:
