@@ -35,7 +35,7 @@ training_category:
         - id: datascience
           name: Data Science
         - id: nosql
-          name: No SQL
+          name: NoSQL
         - id: hadoop
           name: Hadoop
 
