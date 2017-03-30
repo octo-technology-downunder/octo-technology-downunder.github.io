@@ -1,5 +1,6 @@
 ---
 title: "Develop with Hadoop: Java"
+sub-header: "Official Hadoop Hortonworks training: \"HDP Develope Java\""
 duration_days: 4
 duration_hours: 28
 time_shares:
