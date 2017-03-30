@@ -1,6 +1,5 @@
 ---
 title: Internet of Things
-sub-header: Connected objects
 duration_days: 1
 duration_hours: 7
 time_shares:

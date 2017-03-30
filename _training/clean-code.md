@@ -1,6 +1,5 @@
 ---
 title: Clean code
-sub-header: Produce and write nice code or improve an existing code
 duration_days: 3
 duration_hours: 21
 time_shares:

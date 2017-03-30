@@ -20,17 +20,21 @@ markdown: kramdown
 
 
 training_category:
-  - id: agile
-    name: Agile and Lean
-    color: "#F4B70D"
-
-  - id: IT
-    name: Information System Architecture
-    color: "#00abc7"
+  # - id: agile
+  #   name: Agile and Lean
+  #   color: "#F4B70D"
+  #
+  # - id: IT
+  #   name: Information System Architecture
+  #   color: "#00abc7"
 
   - id: big-data
     name: Big Data
     color: "#e7511e"
+
+  - id: devops
+    name: Devops
+    color: "#3f4ab2"
 
   - id: craftsmanship
     name: Software Craftsmanship

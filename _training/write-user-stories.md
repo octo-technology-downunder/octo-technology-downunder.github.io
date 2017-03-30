@@ -1,6 +1,5 @@
 ---
 title: "Software development: produce useful use stories"
-sub-header: "Software development: produce useful use stories"
 duration_days:
 duration_hours:
 time_shares: []
