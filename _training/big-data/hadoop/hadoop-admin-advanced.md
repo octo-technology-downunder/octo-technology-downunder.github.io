@@ -1,5 +1,5 @@
 ---
-title: "Administrate Hadoop Hortonworks platform: advanced"
+title: "Administrate Hadoop Hortonworks Data Platform: advanced"
 duration_days: 3
 duration_hours: 21
 time_shares:
