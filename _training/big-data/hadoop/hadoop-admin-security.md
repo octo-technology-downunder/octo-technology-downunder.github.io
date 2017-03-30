@@ -1,5 +1,6 @@
 ---
 title: "Administrate Hadoop platform: security"
+sub-header: "Official Hadoop Hortonworks training: \"HDP Operations: Security\""
 duration_days: 3
 duration_hours: 21
 time_shares:
