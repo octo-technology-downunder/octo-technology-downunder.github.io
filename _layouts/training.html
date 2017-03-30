@@ -20,10 +20,21 @@ Phone (*) :
 <div style="display: none;">
     <style type="text/css">
 
-        {% assign training_category = site.training_category | where:"id", page.category | first   %}
+        {% assign training_category = site.training_category | where:"id", page.category | first %}
+        {% assign color = training_category.color  %}
+
+        {% for cat in site.training_category %}
+          {% if cat.sub_category %}
+            {% for sub_cat in cat.sub_category %}
+              {% if sub_cat.id == page.category %}
+                {% assign color = cat.color  %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
         #training .details header:before,
         #training .details header .label {
-            background-color: {{ training_category.color }};
+            background-color: {{ color }};
         }
 
         #training .downloadable a,
@@ -31,11 +42,11 @@ Phone (*) :
         #training .details .program .day > ul > li > .caption,
         #training .courses a,
         #training .testimonials blockquote footer {
-            color: {{ training_category.color }};
+            color: {{ color }};
         }
 
         #training .courses .course:not(:nth-of-type(1)) {
-            border-color: {{ training_category.color }};
+            border-color: {{ color }};
         }
     </style>
 </div>
