@@ -1,6 +1,6 @@
 ---
-title: Develop application using Couchbase
-sub-header: "Official's training: \"Couchbase NoSQL Data Modeling, Querying, and Tuning Using N1QL\""
+title: Develop applications using Couchbase
+sub-header: "Official training: \"Couchbase NoSQL Data Modeling, Querying, and Tuning Using N1QL\""
 duration_days: 3
 duration_hours: 21
 time_shares:
