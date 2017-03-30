@@ -1,5 +1,5 @@
 ---
-title: "Administrate Hadoop platform: level 1"
+title: "Administrate Hadoop Hortonworks Data Platform: level 1"
 sub-header: "Official Hadoop Hortonworks training: \"HDP Operations: HDP Administration 1\""
 duration_days: 4
 duration_hours: 28
