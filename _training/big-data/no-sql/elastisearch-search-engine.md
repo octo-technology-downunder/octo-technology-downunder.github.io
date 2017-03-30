@@ -8,7 +8,7 @@ time_shares:
 - label: Use cases
   value: 50
 type: Workshop
-category: IT
+category: nosql
 layout: training
 ---
 

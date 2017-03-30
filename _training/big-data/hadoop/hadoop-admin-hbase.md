@@ -10,7 +10,7 @@ time_shares:
 - label: Sharing experiences
   value: 10
 type: Workshop
-category: big-data
+category: hadoop
 layout: training
 ---
 

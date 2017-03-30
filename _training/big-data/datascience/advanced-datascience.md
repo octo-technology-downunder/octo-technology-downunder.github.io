@@ -1,16 +1,16 @@
 ---
-title: Basics data science
+title: Advanced data science
 duration_days: 3
 duration_hours: 21
 time_shares:
 - label: Presentation
-  value: 60
+  value: 50
 - label: Use cases
-  value: 30
+  value: 40
 - label: Sharing experiences
   value: 10
 type: Workshop
-category: big-data
+category: datascience
 layout: training
 ---
 

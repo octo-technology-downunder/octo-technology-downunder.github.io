@@ -10,7 +10,7 @@ time_shares:
 - label: Sharing experiences
   value: 20
 type: Seminar
-category: big-data
+category: nosql
 layout: training
 ---
 

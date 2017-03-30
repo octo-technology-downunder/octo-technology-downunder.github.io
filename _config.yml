@@ -31,6 +31,14 @@ training_category:
   - id: big-data
     name: Big Data
     color: "#e7511e"
+    sub_category:
+        - id: datascience
+          name: Data Science
+        - id: nosql
+          name: No SQL
+        - id: hadoop
+          name: Hadoop
+
 
   - id: devops
     name: Devops

@@ -94,6 +94,26 @@ layout: default
                       <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
                       {% endfor %}
                     </ul>
+                    {% if category.sub_category %}
+                    <ul class="domains">
+                      {% for sub_category in category.sub_category %}
+                      <li>
+                        <h3>
+                          {{ sub_category.name }}
+                        </h3>
+                        <ul class="trainings">
+                          {% assign training_in_cat = site.training | where: "category", sub_category.id %}
+                          {% for training in training_in_cat %}
+                          <li><a title="{{ training.title }}" href="{{ site.baseurl }}{{ training.url }}"><span></span>{{ training.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+
+                      </li>
+                      {% endfor %}
+                    </ul>
+                    {% endif %}
+
+
                 </section>
               {% if forloop.last %}
               </div>
