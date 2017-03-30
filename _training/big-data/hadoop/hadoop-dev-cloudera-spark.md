@@ -1,5 +1,6 @@
 ---
-title: Cloudera developer training for Apache Spark
+title: Apache Spark for Cloudera developers
+sub-header: "Official training: \"Cloudera Developer Training for Apache Spark\""
 duration_days: 3
 duration_hours: 21
 time_shares:
