@@ -1,5 +1,5 @@
 ---
-title: Administrate HBase database with Hadoop x Hortonworks
+title: Administrate HBase database with Hadoop Hortonworks
 sub-header: "Official Hadoop Hortonworks training: \"HDP Operations: Apache HBase Advanced Management\""
 duration_days: 4
 duration_hours: 28
