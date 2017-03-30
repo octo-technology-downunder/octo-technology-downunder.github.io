@@ -1,5 +1,6 @@
 ---
 title: Develop with Hadoop using Apache, Pig and Hive
+sub-header: "Official Hadoop Hortonworks training: \"HDP Developer: Apache Pig and Hive\""
 duration_days: 4
 duration_hours: 28
 time_shares:
