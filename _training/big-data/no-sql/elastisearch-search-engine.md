@@ -1,5 +1,6 @@
 ---
 title: Develop a search engine with Elasticsearch
+sub-header: Scaling – Administration – Research
 duration_days: 2
 duration_hours: 14
 time_shares:
