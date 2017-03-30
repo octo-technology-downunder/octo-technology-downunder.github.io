@@ -1,6 +1,6 @@
 ---
 title: Effectively manage your logs with ELK stack
-sub-header: "Official training:\ "ElasticSearch – Logstash – Kibana""
+sub-header: "Official training: \"ElasticSearch – Logstash – Kibana\""
 duration_days: 2
 duration_hours: 14
 time_shares:
