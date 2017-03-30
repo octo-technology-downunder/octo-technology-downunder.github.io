@@ -1,5 +1,6 @@
 ---
-title: Cloudera developer training for Spark and Hadoop
+title: Spark with Hadoop for Cloudera developers
+sub-header: "Official training: \"Cloudera Developer Training for Spark and Hadoop\""
 duration_days: 4
 duration_hours: 28
 time_shares:
