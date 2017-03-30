@@ -1,6 +1,6 @@
 ---
 title: Deploy and manage a Couchbase cluster
-sub-header: "Official's training: \"Couchbase NoSQL Server Administration\""
+sub-header: "Official training: \"Couchbase NoSQL Server Administration\""
 duration_days: 4
 duration_hours: 28
 time_shares:
