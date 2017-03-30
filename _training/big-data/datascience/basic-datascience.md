@@ -1,5 +1,5 @@
 ---
-title: Basics data science
+title: Data science basics
 duration_days: 3
 duration_hours: 21
 time_shares:
