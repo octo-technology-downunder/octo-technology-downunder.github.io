@@ -15,7 +15,32 @@ category: hadoop
 layout: training
 ---
 
-This course is designed for experienced administrators who manage Hortonworks Data Platform (HDP) 2.3 clusters with Ambari. It covers upgrades, configuration, application management, and other common tasks.
-
+### DESCRIPTION
+This course is intended for HDP platform administrators who wish to deepen their knowledge. The focus is on the high availability of various tools, data governance, advanced platform settings and automation of the platform's deployment.
 
 [![Hortonworks-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/2/large_HW_logo.png)](http://hortonworks.com/partner/octo)
+
+### PEDAGOGICAL OBJECTIVES
+* Implement advanced storage management on HDFS
+* Manage advanced resource utilization management with YARN and Slider
+* Perform advanced parameterization of development tools
+* Ensure data governance with Falcon and Oozie
+* Automate deployment with Ambari Blueprint
+
+### PUBLIC TARGET
+* Administrator and architect of the HDP platform seeking to deepen and develop their skills.
+
+### PREREQUISITES
+* Having taken the training course "Administering the Hadoop 2. X Hortonworks 1" (HWADM) platform would be a plus.
+* Command line experience.
+* Experience in HDP administration.
+
+### PEDAGOGICAL METHOD
+Training with theoretical contributions, exchanges on the context of the participants and feedback from the trainer's practical experience, supplemented by practical work and situation studies. 
+This course prepares you for Hortonworks publisher certification.
+
+### STAKEHOLDER PROFILES
+All our training courses are run by experienced and peer-recognized training consultants.
+
+### EVALUATION METHODS
+The evaluation of learning outcomes is carried out throughout the session through workshops and practical exercises. A warm evaluation is systematically carried out at the end of the session.
