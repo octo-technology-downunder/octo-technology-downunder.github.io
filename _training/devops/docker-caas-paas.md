@@ -26,14 +26,14 @@ Cloud platforms are all moving towards a new deployment model to solve software 
 * Deploy on Openshift
 * Understand the challenges of application architecture in Docker and continuous integration issues
 
-### PUBLIC TARGET
+### TARGET
 * Architect
 * Developer
 * Operator
 * Director
 * Integration manager
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 * Knowledge of the Linux environment.
 * Basic knowledge of programming or scripting.
 

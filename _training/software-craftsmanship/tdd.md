@@ -32,7 +32,7 @@ Test Driven Development (TDD) is a simple, elegant and effective programming tec
 * Architect
 * Technical Leader
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 * Knowledge of object programming.
 * Basic experience in software development.
 

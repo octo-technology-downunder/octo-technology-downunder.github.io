@@ -27,10 +27,10 @@ This course is designed for Hortonworks Data Platform (HDP) administrators who w
 * Protect your cluster with Knox
 * Manage permissions and audit with Ranger
 
-### PUBLIC CIBLE
+### TARGET
 * Administrator and architect of the HDP platform seeking to deepen and develop their skills
 
-### PREREQUISITE
+### PRE-REQUISITES
 * Having taken the training course "Administering the Hadoop 2. X Hortonworks 1 platform" would be a plus (HWADM).
 * Command line experience.
 * Experience in administration of the HDP platform.

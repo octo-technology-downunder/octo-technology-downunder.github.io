@@ -30,13 +30,13 @@ This training is aimed at developers who want to create and deploy complete and 
 * Discover MLLib for machine learning on Spark
 * Explore, manipulate and visualize your data with Zeppelin
 
-### PUBLIC CIBLE
+### TARGET
 * Application developer with real-time constraints
 * Study engineer
 * Technical architect
 * Technical Project Manager
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 * Basic knowledge in programming or scripting (Python/Scala)
 * Basic command line experience
 * No knowledge of Hadoop is required

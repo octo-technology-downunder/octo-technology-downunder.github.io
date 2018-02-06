@@ -21,14 +21,14 @@ Software makers know that code quality goes hand in hand with fast, simple and e
 * Use these standards on an example project, as well as on existing code
 * Define the link between code quality and application scalability
 
-### PUBLIC CIBLE
+### TARGET
 * Development Project manager
 * Developer
 * A tester having a developing fiber
 * Architect
 * Technical Leader
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 * Knowledge of object programming.
 * Basic experience in software development.
 * Having followed the "Quality of development with Test Driven Development" (TDD01) training would be a plus.

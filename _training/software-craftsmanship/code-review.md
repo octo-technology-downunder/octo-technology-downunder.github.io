@@ -18,7 +18,7 @@ With the technique of developer testing, code review is unanimously recognized b
 
 ### PEDAGOGICAL OBJECTIVES
 * Discover the challenges and direct and indirect benefits of code review
-* Implement this practice through examples drawn from the reality of the participants' * projects.
+* Implement this practice through examples drawn from the reality of the participants' projects.
 * Exchanging views on issues of code quality, standard setting and team communication
 
 ### TARGET
@@ -30,7 +30,7 @@ With the technique of developer testing, code review is unanimously recognized b
 * Scrum Master or Agile Coach
 
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 Basic knowledge of programming.
 
 ### PEDAGOGICAL METHOD

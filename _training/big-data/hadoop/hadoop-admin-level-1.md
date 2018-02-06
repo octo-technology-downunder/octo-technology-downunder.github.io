@@ -30,11 +30,11 @@ At the end of this training, you will have a solid understanding of Apache Ambar
 * Securing a Hadoop cluster
 * Maintain a Hadoop cluster
 
-### PUBLIC TARGET
+### TARGET
 * Architect
 * Director
 
-### PREREQUISITES
+### PRE-REQUISITES
 * Knowledge of the Linux environment.
 * Ability to read and execute simple Linux shell scripts.
 * It is recommended to have a basic knowledge of SQL queries and experience on operational topics such as incident management and versioning management.

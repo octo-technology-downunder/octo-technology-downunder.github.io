@@ -26,7 +26,7 @@ After describing the concepts around Ansible ("Configuration Management","Infras
 * Architect
 * System Administrator
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 Basic knowledge of a Unix system (taking care in a terminal).
 
 ### PEDAGOGICAL METHOD

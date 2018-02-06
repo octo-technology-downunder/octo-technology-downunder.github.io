@@ -13,28 +13,28 @@ category: nosql
 layout: training
 ---
 
-### Summary
+### SUMMARY
 
 A 3-day hands-on lab-intensive course on architecture and design of NoSQL data using N1QL. Instruction and exercises are focused on data modeling, query, storage and access for robust, scalable, high-performance NoSQL applications. Topics include: the N1QL query language (SQL for JSON), data modeling for NoSQL applications, indexes and views, and methods of application performance tuning for principal use cases.
 
 [![couchbase-logo](//d1ri137x9edlub.cloudfront.net/uploads/training_partner/logo/1/large_CB_logo_1.png)](http://www.couchbase.com/)
 
-### Description
+### DESCRIPTION
 
 Through conceptual presentation, demonstration and extensive hands­-on labs and exercises, this 3-day instructor-­led course guides developers, architects and DBA's on storing and accessing data rapidly and at web scale, in diverse document-database use cases based on JSON, using Couchbase Server, N1QL, and related technologies. All labs rely on queries in N1QL without dependency on any particular application programming language. The course is aimed at developers, architects, analysts, DBAs, data warehouse and business intelligence admins and analysts, and DevOps professionals.
 
 The hands-on labs (usually 60% of class time) get you real-world "flight-time" modeling NoSQL data using best practices for JSON and key/value, creating and exploiting secondary indexes, performing complex aggregations using map-reduce Views, and becoming capable with N1QL as a basis for developing powerful, scalable, and reliable applications using NoSQL data, in any programming language.
 
-### Objectives
+### OBJECTIVES
 The course is geared to produce effective NoSQL data modeling, storage, querying, and performance tuning competency in experienced software application developers and other technical professionals who may be either newbies to data-driven apps, or already experienced with SQL and modern databases from prior data application development projects.
 
-### Audience
+### AUDIENCE
 This course is intended for application developers, architects, software engineers, database administrators, data warehouse managers, business intelligence analysts, data engineers, and DevOps professionals with experience in any software development or scripting language, and with or without prior experience using SQL in a relational database (RDBMS) context.
 
-### Prerequisites
+### PREREQUISITES
 The course is designed for developers and data architects seeking to use Couchbase for data modeling, storage, and retrieval. No specific programming language expertise is required or assumed. Success in the hands-on labs will be assured for participants who bring prior experience writing software or scripting in ANY modern language, for example, Java, C#/.Net, Node.js, Go, Python, C/C++, Ruby, PHP, etc. Familiarity with basic programming fundamentals and database concepts is assumed, but no prior experience with NoSQL databases (or with SQL datbases) is required. We strongly suggest Participants complete the following Couchbase online courses prior to class: CB030, and CB105, and CB110.
 
-### Outline
+### OUTLINE
 Partial list of concepts, topics and hands-on labs. Subject to change and update without prior notice. Course includes:
 
 1. Welcome (4 hands-on labs)

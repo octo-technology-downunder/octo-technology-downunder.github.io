@@ -35,7 +35,7 @@ At the end of this day, you will have the keys to implementing a DevOps approach
 * Tester
 * Operator
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 General culture of application development or exploitation.
 
 ### PEDAGOGICAL METHOD

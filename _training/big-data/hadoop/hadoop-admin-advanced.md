@@ -27,10 +27,10 @@ This course is intended for HDP platform administrators who wish to deepen their
 * Ensure data governance with Falcon and Oozie
 * Automate deployment with Ambari Blueprint
 
-### PUBLIC TARGET
+### TARGET
 * Administrator and architect of the HDP platform seeking to deepen and develop their skills.
 
-### PREREQUISITES
+### PRE-REQUISITES
 * Having taken the training course "Administering the Hadoop 2. X Hortonworks 1" (HWADM) platform would be a plus.
 * Command line experience.
 * Experience in HDP administration.

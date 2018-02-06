@@ -36,7 +36,7 @@ Data ingestion supplements with Sqoop and Kafka are proposed, so that the partic
 * Developer
 * Analyst
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 * Be comfortable programming in one of these languages: Scala and/or Python.
 * Basic knowledge of Linux command lines required.
 * The basic knowledge of SQL is a plus.

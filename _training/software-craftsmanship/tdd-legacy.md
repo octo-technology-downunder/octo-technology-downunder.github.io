@@ -29,7 +29,7 @@ Legacy code is a metaphor for talking about this code existing in our applicatio
 * Architect
 * Technical Leader
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 * Programming and software engineering skills.
 * Experience in test-driven development (TDD) and object-oriented programming is a plus.
 * Having followed the "Quality of development with Test Driven Development" (TDD01) training would be a plus.

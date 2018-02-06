@@ -31,7 +31,7 @@ This training will allow you to pass from head to body, from knowledge to knowle
 * Architect
 * Technical manager
 
-### PRE-REQUISITE
+### PRE-REQUISITES
 Full and active presence of participants
 
 ### PEDAGOGICAL METHOD
