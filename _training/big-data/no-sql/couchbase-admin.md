@@ -20,7 +20,7 @@ A 4-day hands-on practical course in deploying and managing Couchbase Server clu
 
 ### DESCRIPTION
 
-This is a fast-paced technical practicum on Couchbase Server 4.5 from an Administration and Operations perspective. The course takes a use-case driven approach to learning NoSQL database server cluster deployment and operations.
+This is a fast-paced technical course on Couchbase Server 4.5 from an Administration and Operations perspective. The course takes a use-case driven approach to learning NoSQL database server cluster deployment and operations.
 
 Through instructor-led discussion, demonstrations and intensive hands-on labs, participants will develop an actual Couchbase server cluster and Proof of Concept (POC) modeled on typical use-cases for high performance mission-critical NoSQL databases.
 

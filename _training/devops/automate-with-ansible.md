@@ -30,7 +30,7 @@ After describing the concepts around Ansible ("Configuration Management","Infras
 Basic knowledge of a Unix system (taking care in a terminal).
 
 ### PEDAGOGICAL METHOD
-Training with theoretical contributions, exchanges on the context of the participants and feedback from the trainer's practical experience, supplemented by practical work and situation studies.
+Training with theoretical contributions, dialogue with participants tailored around their individual experience and feedback from the trainer's practical experience, supplemented by practical work and situation studies.
 
 ### STAKEHOLDER PROFILES
 All our training courses are run by experienced and peer-recognized training consultants.

@@ -32,11 +32,11 @@ This course is designed for Hortonworks Data Platform (HDP) administrators who w
 
 ### PRE-REQUISITES
 * Having taken the training course "Administering the Hadoop 2. X Hortonworks 1 platform" would be a plus (HWADM).
-* Command line experience.
+* Linux command line experience.
 * Experience in administration of the HDP platform.
 
 ### PEDAGOGICAL METHOD
-* Training with theoretical contributions, exchanges on the context of the participants and feedback from the trainer's practical experience, supplemented by practical work and situation studies.
+* Training with theoretical contributions, dialogue with participants tailored around their individual experience and feedback from the trainer's practical experience, supplemented by practical work and situation studies.
 
 ### STAKEHOLDER PROFILES
 All our training courses are run by experienced and peer-recognized training consultants.

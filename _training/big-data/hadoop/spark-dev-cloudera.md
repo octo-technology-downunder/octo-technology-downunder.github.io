@@ -18,7 +18,7 @@ best: true
 
 ### DESCRIPTION
 Apache Spark has established itself in recent years as THE reference Big Data framework, and as a central tool of the Hadoop ecosystem. This intensive training takes the participant from the discovery of Spark to the use of its advanced features. 
-The pedagogical approach balances theoretical contributions on the fundamental Spark structures (RDD, DataFrame, DataSets) and numerous practical work. Participants manipulate the interactive console to prototype. They then encode, deploy and monitor applications on a cluster. The program integrates the major evolutions of the new Spark 2 version, and the complex use of streaming applications. 
+The pedagogical approach balances theoretical contributions on the fundamental Spark structures (RDD, DataFrame, DataSets) and numerous practical works. Participants manipulate the interactive console to prototype. They then encode, deploy and monitor applications on a cluster. The program integrates the major evolutions of the new Spark 2 version, and the complex use of streaming applications. 
 
 
 During the training, a panorama of the Hadoop ecosystem is drawn up, emphasizing the essential concepts of distributed environments: storage on HDFS, computing with Map-Reduce and resource management via YARN. 
@@ -43,7 +43,7 @@ Data ingestion supplements with Sqoop and Kafka are proposed, so that the partic
 * No previous experience with Hadoop is required.
 
 ### PEDAGOGICAL METHOD
-Training with theoretical contributions, exchanges on the context of the participants and feedback from the trainer's practical experience, supplemented by practical work and situation studies. Apache Spark examples and hands-on exercises are presented with Scala and Python.
+Training with theoretical contributions, dialogue with participants tailored around their individual experience and feedback from the trainer's practical experience, supplemented by practical work and situation studies. Apache Spark examples and hands-on exercises are presented with Scala and Python.
 
 Following the training, trainees will have the opportunity to take the "CCA Spark and Hadoop Developer" certification exam in Cloudera.
 

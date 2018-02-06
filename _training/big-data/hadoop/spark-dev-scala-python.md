@@ -43,7 +43,7 @@ This training is aimed at developers who want to create and deploy complete and 
 * Useful but not obligatory SQL knowledge and real-time application design, but not mandatory
 
 ### PEDAGOGICAL METHOD
-Training with theoretical contributions, exchanges on the context of the participants and feedback from the trainer's practical experience, supplemented by practical work and situation studies. 
+Training with theoretical contributions, dialogue with participants tailored around their individual experience and feedback from the trainer's practical experience, supplemented by practical work and situation studies. 
 This course prepares you for Hortonworks publisher certification.
 
 ### STAKEHOLDER PROFILES

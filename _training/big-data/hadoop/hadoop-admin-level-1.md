@@ -40,7 +40,7 @@ At the end of this training, you will have a solid understanding of Apache Ambar
 * It is recommended to have a basic knowledge of SQL queries and experience on operational topics such as incident management and versioning management.
 
 ### PEDAGOGICAL METHOD
-Training with theoretical contributions, exchanges on the context of the participants and feedback from the trainer's practical experience, supplemented by practical work and situation studies. 
+Training with theoretical contributions, dialogue with participants tailored around their individual experience and feedback from the trainer's practical experience, supplemented by practical work and situation studies. 
 This course prepares you for Hortonworks publisher certification.
 
 ### STAKEHOLDER PROFILES

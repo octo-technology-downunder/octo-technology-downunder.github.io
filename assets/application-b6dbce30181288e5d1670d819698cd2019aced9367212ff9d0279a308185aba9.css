@@ -13808,6 +13808,32 @@ footer .bottom .legalities a:hover {
   float: left
 }
 
+#new-registration h1, #who-we-are h1, #practical-informations h1, #partners h1, #training-programs h1 {
+    font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: -0.05rem;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.6875rem
+}
+
+#new-registration h1:after, #who-we-are h1:after, #practical-informations h1:after, #partners h1:after, #training-programs h1:after {
+    content: "";
+    display: block;
+    margin: 2.5rem auto;
+    height: 0.375rem;
+    width: 2.1875rem;
+    background-color: #F4B70D
+}
+
+#new-registration h2, #who-we-are h2, #practical-informations h2, #partners h2, #training-programs h2 {
+    font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: -0.05rem;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1.875rem
+}
+
 #training {
   margin: 0 auto;
   max-width: 90rem;
@@ -15027,4 +15053,45 @@ footer .bottom .legalities a:hover {
   margin-left: 0;
   font-size: 1.7rem;
 
+}
+
+.contactus {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.intra {
+    margin-top: 3.4375rem
+}
+
+.intra .call-to-action {
+    text-align: center
+}
+
+.intra .call-to-action a {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.45rem 1.125rem;
+    line-height: 1;
+    font-family: IntervalSans, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    position: relative;
+    display: inline-block
+}
+
+.intra .call-to-action a:before {
+    content: "";
+    position: absolute;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    padding: 0.125rem;
+    border: solid 0.0625rem black;
+    background: transparent;
+    top: -0.1875rem;
+    left: -0.1875rem
 }
