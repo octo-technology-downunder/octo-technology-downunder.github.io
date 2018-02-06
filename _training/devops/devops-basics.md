@@ -14,8 +14,6 @@ category: devops
 layout: training
 best: true
 ---
-# DevOps basics
-
 ### DESCRIPTION
 
 The developers (Dev) and operators (Ops) are a bit like the Tom and Jerry of IT Engineering! But to achieve both the agility and operational excellence of the Web giants, these enemy brothers must work together effectively. Indeed, Dev and Ops have opposite objectives: innovation versus stability. 
