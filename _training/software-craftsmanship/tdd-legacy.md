@@ -43,6 +43,3 @@ All our training courses are run by experienced and peer-recognized training con
 
 ### EVALUATION METHODS
 The evaluation of learning outcomes is carried out throughout the session through workshops and practical exercises. An evaluation is systematically carried out at the end of the session.
-
-
-
