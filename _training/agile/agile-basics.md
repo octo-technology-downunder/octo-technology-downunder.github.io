@@ -1,10 +1,10 @@
 ---
-title: Blockchain revolution
+title: Discover agile basics
 duration_days:
 duration_hours:
 time_shares:
   []
 type: Workshop
-category: IT
+category: agile
 layout: training
 ---

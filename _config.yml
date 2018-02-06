@@ -20,30 +20,23 @@ markdown: kramdown
 
 
 training_category:
-  # - id: agile
-  #   name: Agile and Lean
-  #   color: "#F4B70D"
-  #
-  # - id: IT
-  #   name: Information System Architecture
-  #   color: "#00abc7"
-
   - id: big-data
     name: Big Data
     color: "#e7511e"
     sub_category:
-        - id: datascience
-          name: Data Science
-        - id: nosql
-          name: NoSQL
         - id: hadoop
           name: Hadoop
-
-
-  - id: devops
-    name: Devops
-    color: "#3f4ab2"
-
+        - id: nosql
+          name: NoSQL
   - id: craftsmanship
     name: Software Craftsmanship
     color: "#00a887"
+  - id: agile
+    name: Agile and Lean
+    color: "#F4B70D"
+  - id: devops
+    name: Devops
+    color: "#3f4ab2"
+  - id: frontend
+    name: Front End
+    color: "#d1599a"

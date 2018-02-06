@@ -82,7 +82,7 @@ layout: default
       <div class="domains">
 
           {% for category in site.training_category %}
-            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
             {% if forloop.first %}
               <div class="has-3">
               {% endif %}
