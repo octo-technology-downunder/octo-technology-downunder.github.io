@@ -11598,13 +11598,13 @@ footer .bottom .legalities a:hover {
   font-size: 80%
 }
 
-#home #offers {
-  margin-top: 4.6875rem
+#home #seminars {
+  margin-top: 4.6875rem;
+    text-align: center;
 }
 
 #home #offers:after {
   content: "";
-  position: absolute;
   display: block;
   left: calc(50% - 8.125rem);
   border-top: solid 3.125rem white;
@@ -11615,6 +11615,7 @@ footer .bottom .legalities a:hover {
 #home #offers div {
   margin: 0 auto;
   max-width: 90rem;
+
   width: 100%;
   padding-bottom: 6rem
 }
@@ -11636,7 +11637,6 @@ footer .bottom .legalities a:hover {
   margin: 2.1rem auto 2.1rem auto;
   width: 7.25rem;
   height: 1px;
-  left: 50%;
   background: black
 }
 
@@ -11753,8 +11753,8 @@ footer .bottom .legalities a:hover {
   opacity: 0.7
 }
 
+
 #home #offers div #seminars header h2 {
-  position: relative;
   width: rem-cal(165);
   height: rem-cal(165);
   border: solid 0.4375rem white;
@@ -11777,9 +11777,6 @@ footer .bottom .legalities a:hover {
 
 #home #offers div #seminars header h2:before {
   content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
   width: rem-cal(165);
   height: rem-cal(165);
   margin-left: -rem-cal(165)/2;
@@ -11803,191 +11800,6 @@ footer .bottom .legalities a:hover {
   color: #f4b70d
 }
 
-#home #offers div #practical_trainings header h2 {
-  position: relative;
-  width: rem-cal(165);
-  height: rem-cal(165);
-  border: solid 0.4375rem white;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: white;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #67baaf;
-  background-image: url(./circle-overlay.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center
-}
-
-#home #offers div #practical_trainings header h2, #home #offers div #practical_trainings header h2:before {
-  border-radius: 50%
-}
-
-#home #offers div #practical_trainings header h2:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: rem-cal(165);
-  height: rem-cal(165);
-  margin-left: -rem-cal(165)/2;
-  margin-top: -rem-cal(165)/2;
-  border: solid 0.0625rem #67baaf;
-  background: transparent;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box
-}
-
-#home #offers div #practical_trainings header:after {
-  background: #67baaf
-}
-
-#home #offers div #practical_trainings h3.subheader {
-  color: #67baaf
-}
-
-#home #offers div #practical_trainings .more {
-  color: #67baaf
-}
-
-#home #offers div #myusi header h2 {
-  position: relative;
-  width: rem-cal(165);
-  height: rem-cal(165);
-  border: solid 0.4375rem white;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: white;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #000000;
-  background-image: url(./circle-overlay.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center
-}
-
-#home #offers div #myusi header h2, #home #offers div #myusi header h2:before {
-  border-radius: 50%
-}
-
-#home #offers div #myusi header h2:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: rem-cal(165);
-  height: rem-cal(165);
-  margin-left: -rem-cal(165)/2;
-  margin-top: -rem-cal(165)/2;
-  border: solid 0.0625rem #000000;
-  background: transparent;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box
-}
-
-#home #offers div #myusi header:after {
-  background: #000000
-}
-
-#home #offers div #myusi h3.subheader {
-  color: #000000
-}
-
-#home #offers div #myusi .more {
-  color: #000000
-}
-
-#home #offers div #myusi header:after {
-  background: #d3b771
-}
-
-#home #offers div #myusi h2 {
-  display: table;
-  margin: auto;
-  position: relative;
-  width: 165;
-  height: 165;
-  border: solid 0.4375rem white;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: white;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #000000;
-  background-image: url(./circle-overlay.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center
-}
-
-#home #offers div #myusi h2, #home #offers div #myusi h2:before {
-  border-radius: 50%
-}
-
-#home #offers div #myusi h2:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 165;
-  height: 165;
-  margin-left: -82.5;
-  margin-top: -82.5;
-  border: solid 0.0625rem #000000;
-  background: transparent;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box
-}
-
-#home #offers div #myusi h2:after {
-  background: #000000
-}
-
-
-#home #offers div #myusi h3.subheader, #home #offers div #myusi .more {
-  color: #d3b771
-}
-
-#home #offers div #myusi .call-to-action {
-  text-align: center;
-  margin-top: 2.5rem
-}
-
-#home #offers div #myusi .call-to-action a {
-  background: black;
-  color: white;
-  text-transform: uppercase;
-  padding: 0.45rem 1.125rem;
-  line-height: 1;
-  font-family: IntervalSans, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.875rem;
-  position: relative;
-  display: inline-block
-}
-
-#home #offers div #myusi .call-to-action a:before {
-  content: "";
-  position: absolute;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 100%;
-  height: 100%;
-  padding: 0.125rem;
-  border: solid 0.0625rem black;
-  background: transparent;
-  top: -0.1875rem;
-  left: -0.1875rem
-}
-
 @media only screen and (max-width: 40em) {
   #home #offers div article {
     padding-left: 0.9375rem;
@@ -12001,22 +11813,20 @@ footer .bottom .legalities a:hover {
   #home #offers div article:nth-of-type(1) {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.3333333%;
-    float: left
+    width: 100%;
+
   }
 
   #home #offers div article:nth-of-type(2) {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.3333333%;
-    float: left
+      width: 100%;
   }
 
   #home #offers div article:nth-of-type(3) {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.3333333%;
-    float: left
+    width: 100%;
   }
 }
 
@@ -12024,8 +11834,6 @@ footer .bottom .legalities a:hover {
   #home #offers div article {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.3333333%;
-    float: left
   }
 }
 #home #offers div article p {
@@ -12059,8 +11867,6 @@ footer .bottom .legalities a:hover {
   #partners #training-partners .partner, #partners #room-lessors .partner {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.33333%;
-    float: left
   }
 }
 
@@ -12080,11 +11886,8 @@ footer .bottom .legalities a:hover {
   #partners #training-partners .row.just-1 .partner, #partners #room-lessors .row.just-1 .partner {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.33333%;
-    float: left;
     margin-left: auto;
     margin-right: auto;
-    float: none
   }
 
   #partners #training-partners .row.just-2 .partner:nth-child(1), #partners #room-lessors .row.just-2 .partner:nth-child(1) {
