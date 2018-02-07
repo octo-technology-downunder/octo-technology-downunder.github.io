@@ -24,7 +24,7 @@ This is a fast-paced technical course on Couchbase Server 4.5 from an Administra
 
 Through instructor-led discussion, demonstrations and intensive hands-on labs, participants will develop an actual Couchbase server cluster and Proof of Concept (POC) modeled on typical use-cases for high performance mission-critical NoSQL databases.
 
-The goal of the class is to get students immediately productive with Couchbase to develop working prototype cluster environments. Lab time will be from 40% to 60% or more, each day. Each student will be provided multiple VMs running in the cloud for hands-on practice setting up a live Couchbase cluster and learning how to configure, monitor and troubleshoot the cluster in realistic scenarios.
+The goal of the class is to get students immediately productive with Couchbase to develop working prototype cluster environments. Hands-on lab time will be from 40% to 70% each day. Each student will be provided multiple VMs running in the cloud for hands-on practice setting up a live Couchbase cluster and learning how to configure, monitor and troubleshoot the cluster in realistic scenarios.
 
 Each lab exercise builds progressive skills and “flight-time” in design and deployment of a Couchbase NoSQL Server cluster designed for handling core use-cases, and subjected to realistic workloads that take advantage of Couchbase Server's powerful capabilities and benefits.
 
@@ -32,7 +32,7 @@ The course incorporates best practices with insider tips and tricks drawn from h
 
 ### OBJECTIVES
 
-By the end of this course the student will be able to perform the most critical administrative tasks such as how to install and configure Couchbase Server 4.5, run benchmark testing against a realistic POC cluster while monitoring its health, cause auto-sharding of clusters, backup and restore a cluster, add and remove nodes, assign roles to nodes enabling MDS (Multi-Dimensional Scalability) and troubleshoot a live cluster. Each student will create their own fully functional 3-node Couchbase cluster in one data center and replicate the data via XDCR to a single node in another data center. The student will be able to demonstrate best practices and diagnose and resolve the top ten current operations issues.
+By the end of this course the student will be able to perform the most critical administrative tasks such as how to install and configure Couchbase Server 4.5, run benchmark testing against a realistic POC cluster while monitoring its health, cause auto-sharding of clusters, backup and restore a cluster, add and remove nodes, assign roles to nodes enabling MDS (Multi-Dimensional Scalability) and troubleshoot a live cluster. Each student will create their own fully functional 3-node Couchbase cluster in one data center and replicate the data via XDCR to a single node in another data center. The student will be able to demonstrate best practices and diagnose and resolve the top ten current operational issues.
 
 ### AUDIENCE
 
@@ -40,7 +40,7 @@ The course is intended for future Couchbase Administrators, DevOps engineers and
 
 ### PRE-REQUISITE
 
-System administrator experience in one or more of the following: Win32, UNIX, Linux or DBA or other networking / virtualization / cloud technologies; experience with Linux systems administration skills using command line. No prior database experience is required; however, knowledge of relational database technology is helpful. No prior knowledge of Couchbase is required.  We strongly suggest Participants complete the following Couchbase online courses prior to class: CB020 and CB030.
+System administrator experience in one or more of the following: Win32, UNIX, Linux or DBA or other networking / virtualization / cloud technologies; experience with Linux systems administration skills using command line. No prior database experience is required; however, knowledge of relational database technology is helpful. No prior knowledge of Couchbase is required.  We strongly suggest Participants complete the following Couchbase online courses prior to class:[CB020 and CB030](https://training.couchbase.com/online) .
 
 ### ADDITIONAL NOTES
 

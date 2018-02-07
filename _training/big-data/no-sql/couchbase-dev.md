@@ -32,10 +32,10 @@ The course is geared to produce effective NoSQL data modeling, storage, querying
 This course is intended for application developers, architects, software engineers, database administrators, data warehouse managers, business intelligence analysts, data engineers, and DevOps professionals with experience in any software development or scripting language, and with or without prior experience using SQL in a relational database (RDBMS) context.
 
 ### PREREQUISITES
-The course is designed for developers and data architects seeking to use Couchbase for data modeling, storage, and retrieval. No specific programming language expertise is required or assumed. Success in the hands-on labs will be assured for participants who bring prior experience writing software or scripting in ANY modern language, for example, Java, C#/.Net, Node.js, Go, Python, C/C++, Ruby, PHP, etc. Familiarity with basic programming fundamentals and database concepts is assumed, but no prior experience with NoSQL databases (or with SQL datbases) is required. We strongly suggest Participants complete the following Couchbase online courses prior to class: CB030, and CB105, and CB110.
+The course is designed for developers and data architects seeking to use Couchbase for data modeling, storage, and retrieval. No specific programming language expertise is required or assumed. Success in the hands-on labs will be assured for participants who bring prior experience writing software or scripting in ANY modern language, for example, Java, C#/.Net, Node.js, Go, Python, C/C++, Ruby, PHP, etc. Familiarity with basic programming fundamentals and database concepts is assumed, but no prior experience with NoSQL databases (or with SQL datbases) is required. We strongly suggest Participants complete the following Couchbase online courses prior to class: [CB030, and CB105, and CB110](https://training.couchbase.com/online)
 
 ### OUTLINE
-Partial list of concepts, topics and hands-on labs. Subject to change and update without prior notice. Course includes:
+A partial list of concepts, topics and labs subject to change and update, without prior notice,  based upon innovations in the technical landscape. Course includes:
 
 1. Welcome (4 hands-on labs)
     Welcome to our course
