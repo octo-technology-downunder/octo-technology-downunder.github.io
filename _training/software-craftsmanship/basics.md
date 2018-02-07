@@ -32,7 +32,7 @@ Craftsmanship Basics is halfway between Clean Code, Code Review and Code's quali
 ### TARGET
 * Development Project manager
 * Developer
-* A tester having a developing fiber
+* Development savvy tester
 * Architect
 * Technical Leader
 

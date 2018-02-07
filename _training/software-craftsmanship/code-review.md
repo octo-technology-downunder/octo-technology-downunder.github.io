@@ -24,7 +24,7 @@ With the technique of developer testing, code review is unanimously recognized b
 ### TARGET
 * Project manager in development
 * Developer
-* A tester having a developing fiber
+* Development savvy tester
 * Architect
 * Technical Leader
 * Scrum Master or Agile Coach

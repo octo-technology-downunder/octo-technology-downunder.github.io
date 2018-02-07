@@ -28,7 +28,7 @@ Test Driven Development (TDD) is a simple, elegant and effective programming tec
 ### TARGET
 * Development Project manager
 * Developer
-* A tester having a developing fiber
+* Development savvy tester
 * Architect
 * Technical Leader
 

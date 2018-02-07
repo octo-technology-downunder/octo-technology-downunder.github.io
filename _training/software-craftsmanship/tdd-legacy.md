@@ -25,7 +25,7 @@ Legacy code is a metaphor for talking about this code existing in our applicatio
 ### TARGET
 * Development Project manager
 * Developer
-* A tester having a developing fiber
+* Development savvy tester
 * Architect
 * Technical Leader
 

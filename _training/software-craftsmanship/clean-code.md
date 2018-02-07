@@ -24,7 +24,7 @@ Software makers know that code quality goes hand in hand with fast, simple and e
 ### TARGET
 * Development Project manager
 * Developer
-* A tester having a developing fiber
+* Development savvy tester
 * Architect
 * Technical Leader
 
