@@ -11009,7 +11009,7 @@ footer .bottom .legalities a:hover {
   text-decoration: underline
 }
 
-#new-registration h1, #who-we-are h1, #practical-informations h1, #partners h1, #training-programs h1 {
+#new-registration h1, #why-us h1, #practical-informations h1, #partners h1, #training-programs h1 {
   font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.05rem;
   font-style: italic;
@@ -11017,7 +11017,7 @@ footer .bottom .legalities a:hover {
   font-size: 1.6875rem
 }
 
-#new-registration h1:after, #who-we-are h1:after, #practical-informations h1:after, #partners h1:after, #training-programs h1:after {
+#new-registration h1:after, #why-us h1:after, #practical-informations h1:after, #partners h1:after, #training-programs h1:after {
   content: "";
   display: block;
   margin: 2.5rem auto;
@@ -11026,7 +11026,7 @@ footer .bottom .legalities a:hover {
   background-color: #F4B70D
 }
 
-#new-registration h2, #who-we-are h2, #practical-informations h2, #partners h2, #training-programs h2 {
+#new-registration h2, #why-us h2, #practical-informations h2, #partners h2, #training-programs h2 {
   font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.05rem;
   font-style: italic;
@@ -11035,24 +11035,24 @@ footer .bottom .legalities a:hover {
   margin-bottom: 1.875rem
 }
 
-#new-registration header, #who-we-are header, #practical-informations header, #partners header, #training-programs header {
+#new-registration header, #why-us header, #practical-informations header, #partners header, #training-programs header {
   margin: 0 auto;
   max-width: 90rem;
   width: 100%
 }
 
-#new-registration header::after, #who-we-are header::after, #practical-informations header::after, #partners header::after, #training-programs header::after {
+#new-registration header::after, #why-us header::after, #practical-informations header::after, #partners header::after, #training-programs header::after {
   clear: both;
   content: "";
   display: table
 }
 
-#new-registration header > *, #who-we-are header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
+#new-registration header > *, #why-us header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
   text-align: center
 }
 
 @media only screen and (max-width: 40em) {
-  #new-registration header > *, #who-we-are header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
+  #new-registration header > *, #why-us header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
@@ -11061,7 +11061,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  #new-registration header > *, #who-we-are header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
+  #new-registration header > *, #why-us header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 83.33333%;
@@ -11073,7 +11073,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 64.063em) {
-  #new-registration header > *, #who-we-are header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
+  #new-registration header > *, #why-us header > *, #practical-informations header > *, #partners header > *, #training-programs header > * {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 75%;
@@ -11084,7 +11084,7 @@ footer .bottom .legalities a:hover {
   }
 }
 
-#new-registration header p, #who-we-are header p, #practical-informations header p, #partners header p, #training-programs header p {
+#new-registration header p, #why-us header p, #practical-informations header p, #partners header p, #training-programs header p {
   font-size: 1.25rem;
   font-style: italic;
   line-height: 1.75;
@@ -11092,21 +11092,21 @@ footer .bottom .legalities a:hover {
   margin-bottom: 9.375rem
 }
 
-#who-we-are #what-we-are, #who-we-are #to-subscribe, #practical-informations #what-we-are, #practical-informations #to-subscribe {
+#why-us #what-we-are, #why-us #to-subscribe, #practical-informations #what-we-are, #practical-informations #to-subscribe {
   margin: 0 auto;
   max-width: 90rem;
   width: 100%;
   margin-bottom: 9.375rem
 }
 
-#who-we-are #what-we-are::after, #who-we-are #to-subscribe::after, #practical-informations #what-we-are::after, #practical-informations #to-subscribe::after {
+#why-us #what-we-are::after, #why-us #to-subscribe::after, #practical-informations #what-we-are::after, #practical-informations #to-subscribe::after {
   clear: both;
   content: "";
   display: table
 }
 
 @media only screen and (max-width: 40em) {
-  #who-we-are #what-we-are .point, #who-we-are #to-subscribe .point, #practical-informations #what-we-are .point, #practical-informations #to-subscribe .point {
+  #why-us #what-we-are .point, #why-us #to-subscribe .point, #practical-informations #what-we-are .point, #practical-informations #to-subscribe .point {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
@@ -11115,7 +11115,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  #who-we-are #what-we-are .point, #who-we-are #to-subscribe .point, #practical-informations #what-we-are .point, #practical-informations #to-subscribe .point {
+  #why-us #what-we-are .point, #why-us #to-subscribe .point, #practical-informations #what-we-are .point, #practical-informations #to-subscribe .point {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 66.66667%;
@@ -11127,7 +11127,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 64.063em) {
-  #who-we-are #what-we-are .point, #who-we-are #to-subscribe .point, #practical-informations #what-we-are .point, #practical-informations #to-subscribe .point {
+  #why-us #what-we-are .point, #why-us #to-subscribe .point, #practical-informations #what-we-are .point, #practical-informations #to-subscribe .point {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
@@ -11137,11 +11137,11 @@ footer .bottom .legalities a:hover {
   }
 }
 
-#who-we-are #what-we-are p, #who-we-are #to-subscribe p, #practical-informations #what-we-are p, #practical-informations #to-subscribe p {
+#why-us #what-we-are p, #why-us #to-subscribe p, #practical-informations #what-we-are p, #practical-informations #to-subscribe p {
   color: #333333
 }
 
-#who-we-are #what-we-are blockquote, #who-we-are #to-subscribe blockquote, #practical-informations #what-we-are blockquote, #practical-informations #to-subscribe blockquote {
+#why-us #what-we-are blockquote, #why-us #to-subscribe blockquote, #practical-informations #what-we-are blockquote, #practical-informations #to-subscribe blockquote {
   font-style: italic;
   font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.05rem;
@@ -11150,24 +11150,24 @@ footer .bottom .legalities a:hover {
   padding-right: 0
 }
 
-#who-we-are #what-we-are blockquote cite, #who-we-are #to-subscribe blockquote cite, #practical-informations #what-we-are blockquote cite, #practical-informations #to-subscribe blockquote cite {
+#why-us #what-we-are blockquote cite, #why-us #to-subscribe blockquote cite, #practical-informations #what-we-are blockquote cite, #practical-informations #to-subscribe blockquote cite {
   margin-top: 0.625rem;
   font-style: normal
 }
 
-#who-we-are #what-we-promise .points, #who-we-are #precisions .points, #practical-informations #what-we-promise .points, #practical-informations #precisions .points {
+#why-us #what-we-promise .points, #why-us #precisions .points, #practical-informations #what-we-promise .points, #practical-informations #precisions .points {
   margin: 0 auto;
   max-width: 90rem;
   width: 100%
 }
 
-#who-we-are #what-we-promise .points::after, #who-we-are #precisions .points::after, #practical-informations #what-we-promise .points::after, #practical-informations #precisions .points::after {
+#why-us #what-we-promise .points::after, #why-us #precisions .points::after, #practical-informations #what-we-promise .points::after, #practical-informations #precisions .points::after {
   clear: both;
   content: "";
   display: table
 }
 
-#who-we-are #what-we-promise .points .point, #who-we-are #precisions .points .point, #practical-informations #what-we-promise .points .point, #practical-informations #precisions .points .point {
+#why-us #what-we-promise .points .point, #why-us #precisions .points .point, #practical-informations #what-we-promise .points .point, #practical-informations #precisions .points .point {
   margin-bottom: 8.125rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11176,7 +11176,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 64.063em) {
-  #who-we-are #what-we-promise .points .point, #who-we-are #precisions .points .point, #practical-informations #what-we-promise .points .point, #practical-informations #precisions .points .point {
+  #why-us #what-we-promise .points .point, #why-us #precisions .points .point, #practical-informations #what-we-promise .points .point, #practical-informations #precisions .points .point {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
@@ -11184,49 +11184,49 @@ footer .bottom .legalities a:hover {
   }
 }
 
-#who-we-are #what-we-promise .points .point > div, #who-we-are #precisions .points .point > div, #practical-informations #what-we-promise .points .point > div, #practical-informations #precisions .points .point > div {
+#why-us #what-we-promise .points .point > div, #why-us #precisions .points .point > div, #practical-informations #what-we-promise .points .point > div, #practical-informations #precisions .points .point > div {
   padding: 2.5rem 4.6875rem;
   background-color: #666666
 }
 
-#who-we-are #what-we-promise .points .point > div p, #who-we-are #what-we-promise .points .point > div ul, #who-we-are #precisions .points .point > div p, #who-we-are #precisions .points .point > div ul, #practical-informations #what-we-promise .points .point > div p, #practical-informations #what-we-promise .points .point > div ul, #practical-informations #precisions .points .point > div p, #practical-informations #precisions .points .point > div ul {
+#why-us #what-we-promise .points .point > div p, #why-us #what-we-promise .points .point > div ul, #why-us #precisions .points .point > div p, #why-us #precisions .points .point > div ul, #practical-informations #what-we-promise .points .point > div p, #practical-informations #what-we-promise .points .point > div ul, #practical-informations #precisions .points .point > div p, #practical-informations #precisions .points .point > div ul {
   margin-bottom: 0
 }
 
-#who-we-are #what-we-promise .points .point > div h2, #who-we-are #precisions .points .point > div h2, #practical-informations #what-we-promise .points .point > div h2, #practical-informations #precisions .points .point > div h2 {
+#why-us #what-we-promise .points .point > div h2, #why-us #precisions .points .point > div h2, #practical-informations #what-we-promise .points .point > div h2, #practical-informations #precisions .points .point > div h2 {
   font-size: 1.375rem;
   font-weight: normal;
   margin-bottom: 2.5rem
 }
 
-#who-we-are #what-we-promise .points .point > div *, #who-we-are #precisions .points .point > div *, #practical-informations #what-we-promise .points .point > div *, #practical-informations #precisions .points .point > div * {
+#why-us #what-we-promise .points .point > div *, #why-us #precisions .points .point > div *, #practical-informations #what-we-promise .points .point > div *, #practical-informations #precisions .points .point > div * {
   color: white
 }
 
 @media only screen and (min-width: 64.063em) {
-  #who-we-are #what-we-promise .points .point > div, #practical-informations #what-we-promise .points .point > div {
+  #why-us #what-we-promise .points .point > div, #practical-informations #what-we-promise .points .point > div {
     height: 18.75rem
   }
 
-  #who-we-are #precisions .points .point > div, #practical-informations #precisions .points .point > div {
+  #why-us #precisions .points .point > div, #practical-informations #precisions .points .point > div {
     height: 15.625rem
   }
 }
 
-#who-we-are #to-contact-us, #practical-informations #to-contact-us {
+#why-us #to-contact-us, #practical-informations #to-contact-us {
   margin: 0 auto;
   max-width: 90rem;
   width: 100%
 }
 
-#who-we-are #to-contact-us::after, #practical-informations #to-contact-us::after {
+#why-us #to-contact-us::after, #practical-informations #to-contact-us::after {
   clear: both;
   content: "";
   display: table
 }
 
 @media only screen and (max-width: 40em) {
-  #who-we-are #to-contact-us p, #practical-informations #to-contact-us p {
+  #why-us #to-contact-us p, #practical-informations #to-contact-us p {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
@@ -11235,7 +11235,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  #who-we-are #to-contact-us p, #practical-informations #to-contact-us p {
+  #why-us #to-contact-us p, #practical-informations #to-contact-us p {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 83.33333%;
@@ -11247,7 +11247,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 64.063em) {
-  #who-we-are #to-contact-us p, #practical-informations #to-contact-us p {
+  #why-us #to-contact-us p, #practical-informations #to-contact-us p {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 66.66667%;
@@ -11598,7 +11598,7 @@ footer .bottom .legalities a:hover {
   font-size: 80%
 }
 
-#home #seminars {
+#home #who-we-are {
   margin-top: 4.6875rem;
     text-align: center;
 }
@@ -11754,7 +11754,7 @@ footer .bottom .legalities a:hover {
 }
 
 
-#home #offers div #seminars header h2 {
+#home #offers div #who-we-are header h2 {
   width: rem-cal(165);
   height: rem-cal(165);
   border: solid 0.4375rem white;
@@ -11771,11 +11771,11 @@ footer .bottom .legalities a:hover {
   background-position: center
 }
 
-#home #offers div #seminars header h2, #home #offers div #seminars header h2:before {
+#home #offers div #who-we-are header h2, #home #offers div #who-we-are header h2:before {
   border-radius: 50%
 }
 
-#home #offers div #seminars header h2:before {
+#home #offers div #who-we-are header h2:before {
   content: "";
   width: rem-cal(165);
   height: rem-cal(165);
@@ -11788,15 +11788,15 @@ footer .bottom .legalities a:hover {
   box-sizing: border-box
 }
 
-#home #offers div #seminars header:after {
+#home #offers div #who-we-are header:after {
   background: #f4b70d
 }
 
-#home #offers div #seminars h3.subheader {
+#home #offers div #who-we-are h3.subheader {
   color: #f4b70d
 }
 
-#home #offers div #seminars .more {
+#home #offers div #who-we-are .more {
   color: #f4b70d
 }
 
@@ -13243,27 +13243,27 @@ footer .bottom .legalities a:hover {
   left: -0.1875rem
 }
 
-#domains {
+#trainings {
   padding-top: 3rem;
   margin-bottom: 6.25rem
 }
 
-#domains a {
+#trainings a {
   color: inherit
 }
 
-#domains ul.domains, #domains ul.trainings {
+#trainings ul.trainings, #trainings ul.trainings {
   list-style-type: none;
   padding: 0;
   margin: 0
 }
 
-#domains header {
+#trainings header {
   text-align: center;
   margin-bottom: 1.25rem
 }
 
-#domains header h1 {
+#trainings header h1 {
   font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.05rem;
   font-style: italic;
@@ -13271,53 +13271,53 @@ footer .bottom .legalities a:hover {
   font-size: 1.6875rem
 }
 
-#domains header .subtitle {
+#trainings header .subtitle {
   font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.05rem;
   font-style: italic;
   font-size: 1.25rem
 }
 
-#domains h2, #domains h3, #domains ul.trainings {
+#trainings h2, #trainings h3, #trainings ul.trainings {
   padding-left: 1.25rem
 }
 
-#domains h2, #domains h3 {
+#trainings h2, #trainings h3 {
   text-transform: uppercase;
   font-size: 1.25rem;
   margin-bottom: 1.25rem
 }
 
-#domains h2 {
+#trainings h2 {
   position: relative;
   margin-top: 2.5rem;
   color: #FFFFFF
 }
 
-#domains h2 a {
+#trainings h2 a {
   display: block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem
 }
 
-#domains > header h1, #domains > header p.subtitle {
+#trainings > header h1, #trainings > header p.subtitle {
   text-align: center
 }
 
-#domains > .domains > * {
+#trainings > .trainings > * {
   margin: 0 auto;
   max-width: 90rem;
   width: 100%
 }
 
-#domains > .domains > *::after {
+#trainings > .trainings > *::after {
   clear: both;
   content: "";
   display: table
 }
 
 @media only screen and (max-width: 40em) {
-  #domains > .domains > * > section {
+  #trainings > .trainings > * > section {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 100%;
@@ -13326,7 +13326,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  #domains > .domains > * > section {
+  #trainings > .trainings > * > section {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
@@ -13336,7 +13336,7 @@ footer .bottom .legalities a:hover {
 }
 
 @media only screen and (min-width: 64.063em) {
-  #domains > .domains > *.has-1 > section {
+  #trainings > .trainings > *.has-1 > section {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
@@ -13344,7 +13344,7 @@ footer .bottom .legalities a:hover {
     margin-left: 33.33333% !important
   }
 
-  #domains > .domains > *.has-2 > section:nth-of-type(1) {
+  #trainings > .trainings > *.has-2 > section:nth-of-type(1) {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
@@ -13352,7 +13352,7 @@ footer .bottom .legalities a:hover {
     margin-left: 16.66667% !important
   }
 
-  #domains > .domains > *.has-2 > section:nth-of-type(2) {
+  #trainings > .trainings > *.has-2 > section:nth-of-type(2) {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
@@ -13360,7 +13360,7 @@ footer .bottom .legalities a:hover {
     margin-left: 0 !important
   }
 
-  #domains > .domains > *.has-3 > section {
+  #trainings > .trainings > *.has-3 > section {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
@@ -13368,11 +13368,11 @@ footer .bottom .legalities a:hover {
   }
 }
 
-#domains ul.trainings {
+#trainings ul.trainings {
   position: relative
 }
 
-#domains ul.trainings:before {
+#trainings ul.trainings:before {
   content: "";
   position: absolute;
   display: block;
@@ -13382,7 +13382,7 @@ footer .bottom .legalities a:hover {
   border-left: solid 0.125rem #666666
 }
 
-#domains ul.trainings li {
+#trainings ul.trainings li {
   display: block;
   overflow: hidden;
   white-space: nowrap;
@@ -13390,7 +13390,7 @@ footer .bottom .legalities a:hover {
   padding: 0.25rem 0
 }
 
-#domains ul.trainings .label {
+#trainings ul.trainings .label {
   position: relative;
   text-transform: uppercase;
   top: -0.125rem;
@@ -13592,26 +13592,26 @@ footer .bottom .legalities a:hover {
   left: -0.3125rem
 }
 
-#domain #subdomains {
+#domain #subtrainings {
   margin: 0 auto;
   max-width: 90rem;
   width: 100%
 }
 
-#domain #subdomains::after {
+#domain #subtrainings::after {
   clear: both;
   content: "";
   display: table
 }
 
-#domain #subdomains .subdomain {
+#domain #subtrainings .subdomain {
   padding-left: 0;
   padding-right: 0;
   width: 100%;
   float: left
 }
 
-#new-registration h1, #who-we-are h1, #practical-informations h1, #partners h1, #training-programs h1 {
+#new-registration h1, #why-us h1, #practical-informations h1, #partners h1, #training-programs h1 {
     font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
     letter-spacing: -0.05rem;
     font-style: italic;
@@ -13619,7 +13619,7 @@ footer .bottom .legalities a:hover {
     font-size: 1.6875rem
 }
 
-#new-registration h1:after, #who-we-are h1:after, #practical-informations h1:after, #partners h1:after, #training-programs h1:after {
+#new-registration h1:after, #why-us h1:after, #practical-informations h1:after, #partners h1:after, #training-programs h1:after {
     content: "";
     display: block;
     margin: 2.5rem auto;
@@ -13628,7 +13628,7 @@ footer .bottom .legalities a:hover {
     background-color: #F4B70D
 }
 
-#new-registration h2, #who-we-are h2, #practical-informations h2, #partners h2, #training-programs h2 {
+#new-registration h2, #why-us h2, #practical-informations h2, #partners h2, #training-programs h2 {
     font-family: Cutoff, Georgia, Cambria, "Times New Roman", Times, serif;
     letter-spacing: -0.05rem;
     font-style: italic;
@@ -14897,4 +14897,15 @@ footer .bottom .legalities a:hover {
     background: transparent;
     top: -0.1875rem;
     left: -0.1875rem
+}
+
+.contact {
+    float: left;
+    width: 33%;
+}
+
+.contact-header:after {
+    content: "";
+    display: table;
+    clear: both;
 }

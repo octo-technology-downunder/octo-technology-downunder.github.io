@@ -3,19 +3,19 @@ layout: default
 ---
 {% capture category_style %}
 {% for category in site.training_category %}
-#domains .domains #{{ category.id }} h2 {
+#trainings .trainings #{{ category.id }} h2 {
     background-color: {{ category.color }};
 }
 
-#domains .domains #{{ category.id }} .trainings:before {
+#trainings .trainings #{{ category.id }} .trainings:before {
     border-left-color: {{ category.color }};
 }
 
-#domains .domains #{{ category.id }} .trainings li a:hover {
+#trainings .trainings #{{ category.id }} .trainings li a:hover {
     color: {{ category.color }};
 }
 
-#domains .domains #{{ category.id }} .trainings span.label {
+#trainings .trainings #{{ category.id }} .trainings span.label {
     background-color: {{ category.color }};
 }
 {% endfor %}
@@ -31,7 +31,7 @@ layout: default
         <div>
             <div class="courses">
               <div class="start-now">
-                <div><a href="#domains">Start Now</a></div>
+                <div><a href="#trainings">Start Now</a></div>
                 <div class="catch-phrase">
                   With great training comes great possibilities
                 </div>
@@ -78,17 +78,19 @@ layout: default
             </div>
         </div>
     </section>
-    <section>
-        <article id="who-we-are">
-            <header>
-                <h1>Why OCTO ?</h1>
-                <p>With digitalization we learn in many ways, everywhere and all the time.<br>At OCTO, we are always on the lookout for new ways of learning and new sources of inspiration to fulfil our mission: to help companies and their teams in their transformation projects.
-                </p>
-            </header>
-        </article>
-    </section>
-    <div id="domains">
-      <div class="domains">
+    <div id="why-us">
+        <section>
+            <article>
+                <header>
+                    <h1>Why OCTO ?</h1>
+                    <p>With digitalization we learn in many ways, everywhere and all the time.<br>At OCTO, we are always on the lookout for new ways of learning and new sources of inspiration to fulfil our mission: to help companies and their teams in their transformation projects.
+                    </p>
+                </header>
+            </article>
+        </section>
+    </div>
+    <div id="trainings">
+      <div class="trainings">
 
           {% for category in site.training_category %}
             {% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
@@ -110,7 +112,7 @@ layout: default
                       {% endfor %}
                     </ul>
                     {% if category.sub_category %}
-                    <ul class="domains">
+                    <ul class="trainings">
                       {% for sub_category in category.sub_category %}
                       <li>
                         <h3>
@@ -149,7 +151,7 @@ layout: default
 
     <section id="offers">
         <div>
-            <article id="seminars">
+            <article id="who-we-are">
                 <header>
                     <h2>
                       <span>Get to <br> know us</span>
@@ -172,8 +174,18 @@ layout: default
             <h2>
                 Contact us
             </h2>
-            <div class="call-to-action">
-                <a  href="mailto:training@octo.com.au">training@octo.com.au</a>
+            <div class="contact-header">
+                <div class="contact">
+                     Tristan LE GUILLOU <br>
+                     (+61) 0423 252 002
+                </div>
+                <div class="call-to-action contact">
+                    <a  href="mailto:training@octo.com.au">training@octo.com.au</a>
+                </div>
+                <div class="contact">
+                    Nicolas GUIGNARD <br>
+                    (+61) 0402 750 175 <br>
+                </div>
             </div>
         </article>
     </section>
