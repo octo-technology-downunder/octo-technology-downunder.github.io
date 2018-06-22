@@ -40,3 +40,6 @@ training_category:
   - id: frontend
     name: Front End
     color: "#d1599a"
+  - id: students
+    name: For students
+    color: "#800000"
