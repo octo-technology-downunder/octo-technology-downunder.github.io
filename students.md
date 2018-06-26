@@ -13,6 +13,7 @@ type: Course
 category: students
 layout: training
 best: true
+permalink: students
 ---
 ### DESCRIPTION
 

@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+{% capture contact-subject %}More information on {{ page.title }}{% endcapture %}
+{% capture contact-body %}Hello,
+
+I would like more information on "{{ page.title }}".
+
+Name (*) :
+Surname (*) :
+Compagny (*) :
+Service :
+Title :
+Email (*) :
+Phone (*) :
+
+(*) required
+{% endcapture%}
+<div style="display: none;">
+    <style type="text/css">
+
+        {% assign training_category = site.training_category | where:"id", page.category | first %}
+        {% assign color = training_category.color  %}
+
+        {% for cat in site.training_category %}
+          {% if cat.sub_category %}
+            {% for sub_cat in cat.sub_category %}
+              {% if sub_cat.id == page.category %}
+                {% assign color = cat.color  %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+        #training .details header:before,
+        #training .details header .label {
+            background-color: {{ color }};
+        }
+
+        #training .downloadable a,
+        #training .details a,
+        #training .details .program .day > ul > li > .caption,
+        #training .courses a,
+        #training .testimonials blockquote footer {
+            color: {{ color }};
+        }
+
+        #training .courses .course:not(:nth-of-type(1)) {
+            border-color: {{ color }};
+        }
+    </style>
+</div>
+<article id="training">
+    <div class="details">
+        <header>
+            <h1>{{ page.title }}</h1>
+            <h2 class="subheader">{{ page.sub-header }}</h2>
+        </header>
+        <section class="abstract">
+            {{ content }}
+        </section>
+    </div>
+    <div class="side-informations">
+      <section class="informations">
+          <div class="kind">Type&nbsp;: <strong> {{ page.type }}</strong></div>
+          <div class="duration">Duration&nbsp;: <strong>{{ page.duration_days }} days ({{ page.duration_hours }} hours)</strong></div>
+          <div class="time-shares">
+              <ul>
+              {% for time_share in page.time_shares %}
+                  <li class="share presentation">{{ time_share.label }}&nbsp;: <strong>{{ time_share.value }}%</strong></li>
+              {% endfor %}
+              </ul>
+          </div>
+      </section>
+      </section>
+      <section class="intra"><b>Book with us&nbsp;:</b>
+          <div class="call-to-action">
+            <a  href="mailto:training@octo.com.au?subject={{ contact-subject | uri_escape }}&body={{ contact-body | uri_escape }}">training@octo.com.au</a>
+          </div>
+      </section>
+  </div>
+
+  <div class="call-to-action">
+    <a  href="mailto:training@octo.com.au?subject={{ contact-subject | uri_escape }}&body={{ contact-body | uri_escape }}">training@octo.com.au</a>
+  </div>
+</article>
