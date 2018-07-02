@@ -63,7 +63,7 @@ Phone (*) :
     <div class="side-informations">
       <section class="informations">
           <div class="kind">Type&nbsp;: <strong> {{ page.type }}</strong></div>
-          <div class="duration">Duration&nbsp;: <strong>{{ page.duration_days }} days ({{ page.duration_hours }} hours)</strong></div>
+          <div class="duration">Duration&nbsp;: <strong>{{ page.duration_hours }} hours in {{ page.duration_days }} days</strong></div>
           <div class="time-shares">
               <ul>
               {% for time_share in page.time_shares %}
@@ -71,16 +71,33 @@ Phone (*) :
               {% endfor %}
               </ul>
           </div>
+          <div class="price">Price&nbsp;: <strong>{{page.price}}</strong></div>
       </section>
-      </section>
-      <section class="intra"><b>Book with us&nbsp;:</b>
-          <div class="call-to-action">
-            <a  href="mailto:training@octo.com.au?subject={{ contact-subject | uri_escape }}&body={{ contact-body | uri_escape }}">training@octo.com.au</a>
+      <section>Course availability&nbsp;:
+          <div class="courses-availability">
+              <table>
+                  {% for course in page.courses %}
+                  <tr>
+                      <td>{{ course.period }}</td>
+                      <td>{{ course.availability }}</td>
+                  </tr>
+                  {% endfor %}
+              </table>
           </div>
       </section>
-  </div>
+      <section class="intra"><b>Book your course&nbsp;:</b>
+          <div>
+              <form id="students_registration" action="https://qif8aa4drb.execute-api.ap-southeast-2.amazonaws.com/dev/students/book" method="post" autocomplete="on">
+                  <input type="text" id="uname" name="name" placeholder="Your name" class="control" required>
+                  <input type="email" id="email" name="email" placeholder="Email address" class="control" required>
+                  <textarea rows="4" cols="50" name="message" form="students_registration" placeholder="Enter your message here..." ></textarea>
+                  <button type="submit" name="book_course"class="control">Submit request</button>
+              </form>
+          </div>
+      </section>
+    </div>
 
-  <div class="call-to-action">
-    <a  href="mailto:training@octo.com.au?subject={{ contact-subject | uri_escape }}&body={{ contact-body | uri_escape }}">training@octo.com.au</a>
-  </div>
+    <div class="call-to-action">
+        <a href="mailto:training@octo.com.au?subject={{ contact-subject | uri_escape }}&body={{ contact-body | uri_escape }}">Send your questions!</a>
+    </div>
 </article>

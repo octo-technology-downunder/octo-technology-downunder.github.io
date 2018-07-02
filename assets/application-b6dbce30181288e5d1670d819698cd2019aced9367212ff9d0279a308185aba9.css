@@ -14909,3 +14909,57 @@ footer .bottom .legalities a:hover {
     display: table;
     clear: both;
 }
+
+
+#students_registration form .control input[type="submit"] {
+  background: #F4B70D;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.45rem 1.125rem;
+  line-height: 1;
+  font-family: IntervalSans, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  display: inline-block;
+  margin-top: 1.25rem
+}
+
+#students_registration form .control input[type="submit"]:hover {
+  background: #d39e0a
+}
+
+#students_registration form .control input[type="submit"]:before {
+  content: "+"
+}
+
+.students-call-to-action {
+  text-align: center;
+  margin-bottom: 0.9375rem;
+  transition: opacity 0.2s ease-in;
+}
+
+.students-call-to-action a {
+  background: #F4B70D;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.45rem 1.125rem;
+  line-height: 1;
+  font-family: IntervalSans, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  position: relative;
+  display: inline-block
+}
+
+.students-call-to-action a:before {
+  content: "";
+  position: absolute;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  padding: 0.125rem;
+  border: solid 0.0625rem black;
+  background: transparent;
+  top: -0.1875rem;
+  left: -0.1875rem
+}
