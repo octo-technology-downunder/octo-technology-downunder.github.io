@@ -34,7 +34,7 @@ At the end of this training, you will be able to create an API in Java, design a
 
 ### PRE-REQUISITES
 * Basic experience in software development.
-* Knowledge of object programming.
+* Knowledge of Java
 
 ### PEDAGOGICAL METHOD
 This training is mainly composed of practical exercises that will provide participants with tools that they can immediately put into practice in their current projects. 
