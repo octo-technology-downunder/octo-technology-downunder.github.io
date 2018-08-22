@@ -5,7 +5,7 @@ duration_hours:
 time_shares:
   []
 type: Workshop
-category: data-science
+category: hadoop
 best: true
 layout: training
 ---
