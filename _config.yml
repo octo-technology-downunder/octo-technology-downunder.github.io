@@ -26,8 +26,16 @@ training_category:
     sub_category:
         - id: hadoop
           name: Hadoop
-        - id: nosql
-          name: NoSQL
+        - id: hadoop-cloudera
+          name: Hadoop Cloudera
+        - id: data-science
+          name: Data Science
+        - id: spark-databrick
+          name: Spark Databricks
+        - id: no-sql
+          name: No SQL
+
+
   - id: craftsmanship
     name: Software Craftsmanship
     color: "#00a887"

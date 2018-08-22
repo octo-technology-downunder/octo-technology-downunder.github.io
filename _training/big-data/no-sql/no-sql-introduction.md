@@ -10,7 +10,7 @@ time_shares:
 - label: Sharing experiences
   value: 20
 type: Seminar
-category: nosql
+category: no-sql
 layout: training
 best: true
 ---

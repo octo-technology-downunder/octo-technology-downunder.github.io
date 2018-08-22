@@ -11,7 +11,7 @@ time_shares:
 - label: Sharing experiences
   value: 10
 type: Workshop
-category: hadoop
+category: hadoop-cloudera
 layout: training
 best: true
 ---
