@@ -1,5 +1,5 @@
 ---
-title: Administer the Hadoop Cloudera platform
+title: Manage the Hadoop Cloudera platform
 duration_days:
 duration_hours:
 time_shares:

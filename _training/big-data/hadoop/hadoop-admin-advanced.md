@@ -1,6 +1,6 @@
 ---
-title: "Administrate Hadoop Hortonworks Data Platform: advanced"
-sub-header: "Official Hadoop Hortonworks training: \"HDP Operations: HDP Administration 2\""
+title: "Manage Hadoop Hortonworks Data Platform: advanced"
+sub-header: "Official Hadoop Hortonworks training: \"HDP Operations: HDP Management 2\""
 duration_days: 3
 duration_hours: 21
 time_shares:
