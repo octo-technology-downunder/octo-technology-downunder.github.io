@@ -8,3 +8,4 @@ type: Workshop
 category: agile
 layout: training
 ---
+Preview unavailable, please contact us at training@octo.com.au fort more informations
